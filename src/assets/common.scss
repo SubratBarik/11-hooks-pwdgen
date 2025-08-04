@@ -1,0 +1,37 @@
+$primary-color: #b92540;
+$primary-font: "Great Vibes", cursive;
+$secondary-color: #2892b3;
+$secondary-font: "Lexend", sans-serif;
+
+.container {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    .main {
+        width: 100%;
+        h1 {
+            font-size: 50px;
+            text-align: center;
+            color: $primary-color;
+            line-height: 70px;
+            margin: 2% 0;
+            padding: 0;
+            font-weight: 900;
+            text-decoration: underline;
+            font-family: $primary-font;
+            letter-spacing: 5px;
+        }
+
+        h3 {
+            font-size: 20px;
+            text-align: center;
+            color: $secondary-color;
+            line-height: 30px;
+            margin: 2% 0;
+            padding: 0;
+            font-weight: 400;
+            text-decoration: underline;
+            font-family: $secondary-font;
+        }
+    }
+}
