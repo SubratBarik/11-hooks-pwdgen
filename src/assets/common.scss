@@ -33,5 +33,65 @@ $secondary-font: "Lexend", sans-serif;
             text-decoration: underline;
             font-family: $secondary-font;
         }
+
+        p {
+            font-size: 16px;
+            text-align: center;
+            color: $secondary-color;
+            line-height: 30px;
+            margin: 0;
+            padding: 0;
+            font-family: $secondary-font;
+        }
+    }
+    .mainbox {
+        width: 30%;
+        margin: 0 auto;
+        input {
+            width: 60%;
+            height: 40px;
+            padding: 0 0 0 10px;
+            margin: 0 0 30px;
+            float: left;
+            border: 0;
+            outline: none;
+            font-family: $secondary-font;
+        }
+        button {
+            float: right;
+            height: 40px;
+            border: 0px solid #000;
+            width: 25%;
+            border: 0;
+            cursor: pointer;
+            font-weight: bold;
+            background-color: #b92540;
+            color: #fff;;
+        }
+
+        .rangebox {
+            width: 50%;
+            float: left;
+             label {
+                color: $secondary-color;
+                font-family: $secondary-font;
+                line-height: 38px;
+            }
+        }
+        .numbox {
+            width: 50%;
+            float: right;
+            label {
+                color: $secondary-color;
+                font-family: $secondary-font;
+                width: 40%;
+                line-height: 40px;
+                display: inline-block;
+                input[type="checkbox"] {
+                    width: 20px;
+                }
+
+            }
+        }
     }
 }
